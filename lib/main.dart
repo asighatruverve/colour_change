@@ -54,7 +54,18 @@ class _ColorChangeScreenState extends State<ColorChangeScreen> {
           onPressed: _changeColor,
           style: ElevatedButton.styleFrom(
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-            textStyle: const TextStyle(fontSize: 20),
+              PS C:\Users\WELCOME\StudioProjects\colour_change> git status
+          On branch main
+          You have unmerged paths.
+              (fix conflicts and run "git commit")
+            (use "git merge --abort" to abort the merge)
+
+            Unmerged paths:
+        (use "git add <file>..." to mark resolution)
+          both added:      .gitignore
+      both added:      README.md
+
+          no changes added to commit (use "git add" and/or "git commit -a")      textStyle: const TextStyle(fontSize: 20),
           ),
           child: const Text('Change Color!'),
         ),
